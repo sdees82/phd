@@ -1,0 +1,43 @@
+@import '../styles/_variables.scss';
+
+
+.active{
+    background: $main-theme;
+}
+.myimg{
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    display: inline;
+    height:75px;
+    width: 100px;
+}
+
+.navbar-default{
+    clear: both;
+    background: $theme-white;
+    min-height: 90px;
+    margin-bottom:0;
+    border-bottom:1px solid $main-theme;
+
+    .navbar-nav{
+        margin-top: 15px;
+    }
+    .navbar-nav > .active > a{
+        background: $main-theme;
+        
+    }
+
+    .navbar-nav > li > a{
+        
+        color: #666E70;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: .9em;
+        font-style:normal;
+        line-height:2em;
+    
+    }
+}
+
+
