@@ -1,3 +1,5 @@
+(function(){
+
 'use strict';
 
 /**
@@ -18,3 +20,4 @@ angular
     'ui.router'
   
   ]);
+})();
